@@ -143,7 +143,7 @@ public class ForestFire3D : MonoBehaviour
         } while (nlight > 0);  // when you've lit them all exit this loop
 
         // set the middle cell as grass which is where the player is placed
-        forestFireCells[20, 20].SetGrass();
+       // forestFireCells[20, 20].SetGrass();
     }
 
 
