@@ -8,7 +8,8 @@ public class Walking : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        float randomRotation = Random.Range(0f, 360f);
+        transform.eulerAngles = new Vector3(0, randomRotation, 0);
     }
 
     // Update is called once per frame
