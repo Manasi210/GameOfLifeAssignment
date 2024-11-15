@@ -26,5 +26,5 @@ Installation
 1.	Clone or download the project files.
 2.	Open the project in Unity.
 3.	Load the main scene and press "Play" in Unity to start the game.
-Screenshots
+
 
