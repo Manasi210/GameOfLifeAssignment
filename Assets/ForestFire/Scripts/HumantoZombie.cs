@@ -12,7 +12,7 @@ public class HumanToZombie : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         // Replace with zombie if the tag is "Serum"
-        if (other.CompareTag("Serum"))
+        if (other.CompareTag("Zombie"))
         {
             // Instantiate the zombie at the same position and rotation as the human
             GameObject zombie = Instantiate(zombiePrefab, transform.position, transform.rotation);
